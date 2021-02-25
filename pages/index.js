@@ -63,7 +63,7 @@ export default function Home() {
           </a>
 
           <a className={styles.card} >
-            <h3>Other Facts &rarr;</h3>
+            <h3>Other Status &rarr;</h3>
             <p>  
                <ul>
                  <li> Location: Oslo </li>
