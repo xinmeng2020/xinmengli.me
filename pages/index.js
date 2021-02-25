@@ -31,6 +31,11 @@ export default function Home() {
           <a href="mailto:xinmeng.li@kjemi.uio.no">Click here for my email</a> 
         </p>
 
+        <p className={styles.code}>
+          <a> updated: 25-Feb-2021 </a> 
+        </p>
+
+
         <h4 className={styles.title}>
             <a href="https://weeknumber.net">
             Week 8
