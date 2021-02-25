@@ -5,59 +5,87 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>xinmeng li's webpage</title>
+        <title>Xinmeng Li's Academic Webpage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to check Xinmeng's status 
         </h1>
 
+        
+
+        <a className={styles.card2}>
+            <p>  
+              <img src="/xinmeng-oslo.jpg" alt="xinmeng oslo office" class="avatar" width="800">
+               </img>
+            </p>
+        </a>
+
+
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <a href="mailto:xinmeng.li@kjemi.uio.no">Click here for my quick response email</a> 
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+        <h4 className={styles.title}>
+            <a href="https://weeknumber.net">
+            Week 8
+            </a>
+        </h4>
+        
+ 
+        <div className={styles.grid2}>
+          
+          <a className={styles.card}>
+            <h3>Every Week Meeting &rarr;</h3>
+            <p>  
+               <ul>
+                 <li>Tuesday Morning</li>
+                 <li>Thursday Morning</li>
+               </ul>
+            </p>
+
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+
+          <a className={styles.card}>
+            <h3> Occupied Meeting Time &rarr;</h3>
+            <p>  
+               <ul>
+                 <li> Week 8: Friday 13:30 - 15:00 </li>
+               </ul>
+            </p>
+
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          <a className={styles.card} >
+            <h3>Other Facts &rarr;</h3>
+            <p>  
+               <ul>
+                 <li> Location: Oslo </li>
+                 <li> Busy With: Nucleosome</li>
+                 <li> Coding: Mildly </li>
+                 <li> Sport: No </li>
+                 <li> Mood: Fine </li>
+                 <li> Meeting?: Yes </li>
+               </ul>
             </p>
           </a>
+
+         
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.researchgate.net/profile/Xinmeng-Li"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          see more details in {' '}
+          <img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" alt="ResarchGate" className={styles.logo} />
         </a>
       </footer>
     </div>
