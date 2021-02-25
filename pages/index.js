@@ -61,7 +61,10 @@ export default function Home() {
             <h3> Occupied Meeting Time &rarr;</h3>
             <p>  
                <ul>
-                 <li> <strike> Week 8: Friday 13:30 - 15:00 </strike></li>
+                 <li> <strike> Week 8: Fri. 13:30 - 15:00 </strike> <a className={styles.code}> Cancelled </a>  </li>
+                 <li> Week 9: Mon. 13:30 - 14:30  <a className={styles.code}> Leiden </a> 
+                 </li>
+              
                </ul>
             </p>
 
