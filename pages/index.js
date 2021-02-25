@@ -28,7 +28,7 @@ export default function Home() {
 
 
         <p className={styles.description}>
-          <a href="mailto:xinmeng.li@kjemi.uio.no">Click here for my quick response email</a> 
+          <a href="mailto:xinmeng.li@kjemi.uio.no">Click here for my email</a> 
         </p>
 
         <h4 className={styles.title}>
