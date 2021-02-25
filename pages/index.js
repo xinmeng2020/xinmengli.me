@@ -4,11 +4,13 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
+
       <Head>
         <title>Xinmeng Li's Academic Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -88,6 +90,8 @@ export default function Home() {
           <img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" alt="ResarchGate" className={styles.logo} />
         </a>
       </footer>
+
     </div>
+
   )
 }
