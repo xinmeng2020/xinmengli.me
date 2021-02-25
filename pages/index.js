@@ -77,15 +77,22 @@ export default function Home() {
                  <li> Sport: No </li>
                  <li> Mood: Fine </li>
                  <li> Meeting?: Yes </li>
+
                </ul>
             </p>
           </a>
 
          
         </div>
+
+
       </main>
 
+
+ 
       <footer className={styles.footer}>
+      <ul>
+
         <a
           href="https://www.researchgate.net/profile/Xinmeng-Li"
           target="_blank"
@@ -94,7 +101,21 @@ export default function Home() {
           see more details in {' '}
           <img src="https://c5.rgstatic.net/m/41542880220916/images/favicon/favicon-32x32.png" alt="ResarchGate" className={styles.logo} />
         </a>
+
+        <p className={styles.logo}>
+         <a href='https://www.counter12.com'>
+         <img src='https://www.counter12.com/img-zZ58c910xBW9yZ7d-50.gif' border='0' alt='free web counter'>
+         </img>
+         </a>
+         <script type='text/javascript' src='https://www.counter12.com/ad.js?id=zZ58c910xBW9yZ7d'>
+         </script> 
+       </p>
+
+         
+      </ul>
       </footer>
+
+      
 
     </div>
 
