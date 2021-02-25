@@ -56,7 +56,7 @@ export default function Home() {
             <h3> Occupied Meeting Time &rarr;</h3>
             <p>  
                <ul>
-                 <li> Week 8: Friday 13:30 - 15:00 </li>
+                 <li> <strike> Week 8: Friday 13:30 - 15:00 </strike></li>
                </ul>
             </p>
 
