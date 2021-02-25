@@ -7,21 +7,21 @@ export default function Home() {
 
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Xinmeng Li's Academic Webpage</title>
+        <title>Xinmeng Li's Update</title>
 	      <link rel="icon" href="/favicon.ico" />
       </Head>
       
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to check Xinmeng's status 
+          Thx for checking my status 
         </h1>
 
         
 
         <a className={styles.card2}>
             <p>  
-              <img src="/xinmeng-oslo.jpg" alt="xinmeng oslo office" class="avatar" width="800">
+              <img src="/xinmeng-oslo.jpg" alt="xinmeng oslo office" class="avatar" width="360">
                </img>
             </p>
         </a>
