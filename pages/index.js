@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -87,6 +89,18 @@ export default function Home() {
 
          
         </div>
+
+        {/** COMMENT FOR NOW
+        <div className={styles.grid}>
+          <Link href="/posts/vmd"> 
+          <a className={styles.cardPost}> 
+            <h3> VMD Tips </h3>   
+          </a>
+          </Link>  
+        </div>
+        **/}
+
+
 
 
       </main>
