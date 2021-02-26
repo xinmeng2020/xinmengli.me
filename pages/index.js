@@ -102,10 +102,11 @@ export default function Home() {
         </div>
         **/}
 
+        {/**
         <video autoPlay muted loop width="150">
            <source src="./funny-NL-snow.mp4" type="video/mp4" />
-       </video>
-
+         </video>
+        **/}
        
 
       </main>
