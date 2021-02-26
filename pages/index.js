@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Xinmeng Li's Update</title>
-	      <link rel="icon" href="/favicon.ico" />
+	      <link rel="icon" href="/favicon2.ico" />
       </Head>
       
 
