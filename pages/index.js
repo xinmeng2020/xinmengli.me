@@ -77,7 +77,7 @@ export default function Home() {
                  <li> Location: Oslo </li>
                  <li> Busy With: Nucleosome</li>
                  <li> Coding: Mildly </li>
-                 <li> Sport: No </li>
+                 <li> Exercise: Walking</li>
                  <li> Mood: Fine </li>
                  <li> Meeting?: Yes </li>
 
