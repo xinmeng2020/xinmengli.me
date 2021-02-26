@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -103,13 +102,17 @@ export default function Home() {
         </div>
         **/}
 
+        <video autoPlay muted loop width="150">
+           <source src="./funny-NL-snow.mp4" type="video/mp4" />
+       </video>
 
-
+       
 
       </main>
 
+      
+       
 
- 
       <footer className={styles.footer}>
       <ul>
 
