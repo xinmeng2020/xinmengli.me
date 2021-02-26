@@ -34,7 +34,7 @@ export default function Home() {
         </p>
 
         <p className={styles.code}>
-          <a> updated: 25-Feb-2021 </a> 
+          <a> updated: 26-Feb-2021 </a> 
         </p>
 
 
@@ -64,7 +64,10 @@ export default function Home() {
             <p>  
                <ul>
                  <li> <strike> Week 8: Fri. 13:30 - 15:00 </strike> <a className={styles.code}> Cancelled </a>  </li>
-                 <li> Week 9: Mon. 13:30 - 14:30  <a className={styles.code}> Leiden </a> 
+                 <li> Week 9: Mon. 13:30 - 14:30  <a className={styles.code}>  </a> 
+                 </li>
+	        
+	         <li> Week 9: Mon. 15:00 - 16:00  <a className={styles.code}>  </a>
                  </li>
               
                </ul>
