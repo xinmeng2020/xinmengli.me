@@ -33,13 +33,13 @@ export default function Home() {
         </p>
 
         <p className={styles.code}>
-          <a> updated: 26-Feb-2021 </a> 
+          <a> updated: 1-Mar-2021 </a> 
         </p>
 
 
         <h4 className={styles.title}>
             <a href="https://weeknumber.net">
-            Week 8
+            Week 9
             </a>
         </h4>
         
@@ -62,13 +62,17 @@ export default function Home() {
             <h3> Occupied Meeting Time &rarr;</h3>
             <p>  
                <ul>
+
+                {/**
                  <li> <strike> Week 8: Fri. 13:30 - 15:00 </strike> <a className={styles.code}> Cancelled </a>  </li>
                  <li> Week 9: Mon. 13:30 - 14:30  <a className={styles.code}>  </a> 
                  </li>
+
 	        
 	         <li> Week 9: Mon. 15:00 - 16:00  <a className={styles.code}>  </a>
                  </li>
-              
+                **/}
+
                </ul>
             </p>
 
