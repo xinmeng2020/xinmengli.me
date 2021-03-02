@@ -33,7 +33,7 @@ export default function Home() {
         </p>
 
         <p className={styles.code}>
-          <a> updated: 1-Mar-2021 </a> 
+          <a> updated: 2-Mar-2021 </a> 
         </p>
 
 
@@ -50,8 +50,7 @@ export default function Home() {
             <h3>Every Week Meeting &rarr;</h3>
             <p>  
                <ul>
-                 <li>Tuesday Morning</li>
-                 <li>Thursday Morning</li>
+                 <li>Thursday 10:30 - 12:00 </li>
                </ul>
             </p>
 
@@ -72,6 +71,8 @@ export default function Home() {
 	         <li> Week 9: Mon. 15:00 - 16:00  <a className={styles.code}>  </a>
                  </li>
                 **/}
+
+                   <li> Week 10: Tues. 10:00 - 11:30  <a className={styles.code}> Meso </a>  </li>
 
                </ul>
             </p>
